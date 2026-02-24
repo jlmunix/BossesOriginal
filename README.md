@@ -24,6 +24,7 @@ Asegúrate de tener Java 17 o superior instalado.
 ```bash
 ./gradlew desktop:run
 ```
+![Bosses images](media/monster.png)
 
 ### 📱 Android
 1. Abre el proyecto en **Android Studio**.
@@ -37,6 +38,8 @@ El motor fue diseñado a medida, destacando:
 - **POO Robusta**: Estructura clara de `SpriteObject` -> `Character` -> `GamePlayer`.
 - **Event-Driven**: Sistema de señales (`GameSignals`) para lógica desacoplada.
 - **TiledMaps**: Integración profunda con mapas `.tmx`.
+
+![Bosses images](media/monster2.png)
 
 ## 📜 Créditos
 Diseñado y desarrollado originalmente por [jlmunix](https://github.com/jlmunix).
