@@ -37,7 +37,7 @@ El motor fue diseñado a medida, destacando:
 - **TiledMaps**: Integración profunda con mapas `.tmx`.
 
 ## 📜 Créditos
-Diseñado y desarrollado originalmente por [jlmuniz](https://github.com/jlmuniz).
+Diseñado y desarrollado originalmente por [jlmunix](https://github.com/jlmunix).
 
 ---
 *Migrado con ❤️ por Antigravity AI.*
