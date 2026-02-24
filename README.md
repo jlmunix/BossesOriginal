@@ -1,6 +1,6 @@
 # 🎮 BossesOriginal
 
-![Bosses Cover](media/cover.png)
+![Bosses Cover](media/cover2.png)
 
 ![LibGDX](https://img.shields.io/badge/LibGDX-1.13.1-red.svg)
 ![Gradle](https://img.shields.io/badge/Gradle-8.13-blue.svg)
