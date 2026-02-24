@@ -1,0 +1,26 @@
+apply plugin: "java-library"
+
+sourceCompatibility = 1.8
+sourceSets.main.java.srcDirs = [ "src/" ]
+sourceSets.main.resources.srcDirs = ["../android/assets"]
+
+project.ext.mainClassName = "com.tecoloteinc.bosses.desktop.DesktopLauncher"
+project.ext.assetsDir = new File("../android/assets")
+
+project.ext.mainClassName = "com.tecoloteinc.bosses.desktop.DesktopLauncher"
+project.ext.assetsDir = new File("../android/assets")
+
+dependencies {
+    implementation project(":core")
+    api "com.badlogicgames.gdx:gdx-backend-lwjgl3:$gdxVersion"
+    api "com.badlogicgames.gdx:gdx-platform:$gdxVersion:natives-desktop"
+    api "com.badlogicgames.gdx:gdx-box2d-platform:$gdxVersion:natives-desktop"
+}
+
+task run(type: JavaExec) {
+    mainClass = project.mainClassName
+    classpath = sourceSets.main.runtimeClasspath
+    standardInput = System.in
+    workingDir = project.assetsDir
+    ignoreExitValue = true
+}

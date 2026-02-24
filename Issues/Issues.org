@@ -1,0 +1,21 @@
+* List of Issues
+
+** TODO Move the version of the Android required for the Game for a lower oner.
+** TODO Write the header for the function show in GameEngine.java
+** TODO remove getScreenRatioX,Y from GameEngine.
+** TODO Add header for the addSprite in GameEngine.
+** TODO Check if we need delSprite in GameEngine
+** TODO Add Header to render() in GameEngine
+** TODO Remove m_timer and d_drawTime in GameEngine.
+** TODO Add Header to character_movements in GameEngine.
+** TODO Oscar to investigate standard for member variables.
+** TODO Generate a common enemy, just to modify the Texture.
+
+
+** TODO Check if clearing the screen is required insider begin/End. GameEngine.
+** TODO Add Input Engine.
+
+
+
+** TODO Separate the Game drawing system from the game engine.
+

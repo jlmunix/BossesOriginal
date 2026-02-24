@@ -1,0 +1,38 @@
+# General
+.DS_Store
+*.swp
+*.class
+*~
+
+# Gradle
+.gradle
+gradlew
+gradlew.bat
+gradle/wrapper/*.jar
+build/
+
+# Android
+capture/
+**/gen/
+**/bin/
+local.properties
+.idea/
+*.iml
+*.iws
+
+# LibGDX
+**/.settings/
+**/.project
+**/.classpath
+**/gwt-unitCache/
+**/war/
+**/webapp/WEB-INF/deploy/
+**/webapp/WEB-INF/lib-gwt/
+
+# Artifacts & Temporary
+brain/
+implementation_plan.md
+task.md
+walkthrough.md
+*.webp
+*.png

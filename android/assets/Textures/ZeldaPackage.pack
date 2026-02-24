@@ -1,0 +1,24 @@
+
+ZeldaPackage.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Player/Player
+  rotate: false
+  xy: 1, 1
+  size: 153, 96
+  orig: 153, 96
+  offset: 0, 0
+  index: -1
+
+ZeldaPackage2.png
+format: RGBA8888
+filter: Nearest,Nearest
+repeat: none
+Enemies/BunnyArray
+  rotate: false
+  xy: 1, 1
+  size: 114, 42
+  orig: 114, 42
+  offset: 0, 0
+  index: -1
